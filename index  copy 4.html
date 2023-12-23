@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>проект</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <script src="blfblf.js"></script>
+    <style>
+      /* .con {
+      display: flex;
+      font-size: 25px;
+      flex-direction: row;
+      justify-content: center;
+    }
+    .co {
+      border: 1px solid black;
+      border-color: cornflowerblue;
+      padding: 48px;
+      width: 200px;
+      height: 120px;
+      background-color: deepskyblue;
+    }
+    .it {
+      border: 1px solid black;
+      background-color: deepskyblue;
+      border-color: cornflowerblue;
+      padding: 48px;
+      width: 200px;} */
+      .c {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 80vh;
+        flex-wrap: wrap;
+      }
+      .i {
+        border: 5px solid yellow;
+        padding: 40px;
+
+        width: fit-content;
+        height: fit-content;
+        border-top-right-radius: 40%;
+        background-color: yellow;
+      }
+
+      .ii {
+        border: none;
+        background-color: rgb(85, 169, 85);
+        width: 1912px;
+        height: 60px;
+        padding: 30px;
+        box-shadow: 0px 10px 12px rgb(78, 168, 74);
+      }
+      .comm {
+        display: flex;
+        flex-direction: row;
+      }
+      .doc {
+        width: fit-content;
+        height: fit-content;
+        background-color: goldenrod;
+        margin-bottom: 5px;
+      }
+      .yu {
+        background-color: rgba(28, 27, 27, 0.865);
+        width: fit-content;
+        height: fit-content;
+
+        border-radius: 50%;
+      }
+      .yt {
+        background-color: palegreen;
+        width: 70px;
+        height: 20px;
+        margin-left: 95%;
+        margin-top: -20px;
+      }
+      .ytr {
+        background-color: palegreen;
+        width: 70px;
+        height: 20px;
+        margin-left: 85%;
+        margin-top: -13px;
+      }
+      .tyo {
+        background-color: palegreen;
+        width: 70px;
+        height: 20px;
+        margin-left: 90%;
+        margin-top: -20px;
+      }
+      .container {
+        max-width: 1200px;
+        max-height: 900px;
+        padding: 0px 15px;
+      }
+      @media (max-width: 993px) {
+        .container {
+          max-width: 700px;
+        }
+      }
+      @media (max-width: 1510px) {
+        .ytr {
+          width: 60px;
+        }
+        .tyo {
+          width: 60px;
+        }
+        .yt {
+          width: 60px;
+        }
+      }
+      @media (max-width: 1464px) {
+        .ytr {
+          width: 50px;
+        }
+        .tyo {
+          width: 50px;
+        }
+        .yt {
+          width: 50px;
+        }
+      }
+      @media (max-width: 1120px) {
+        .ytr {
+          width: 40px;
+        }
+        .tyo {
+          width: 40px;
+        }
+        .yt {
+          width: 40px;
+        }
+      }
+      #id {
+        width: 60px;
+        height: 45px;
+      }
+      @media (max-width: 610px) {
+        #id {
+          width: 40px;
+          height: 25px;
+        }
+      }
+      @media (max-width: 455px) {
+        #tyt {
+          font-size: 25px;
+        }
+      }
+      #yuoo {
+        width: 69px;
+      }
+      @media (max-width: 455px) {
+        #yuoo {
+          width: 60px;
+          margin-top: -19;
+        }
+      }
+      .yu {
+        margin-top: -24px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="comm">
+      <div class="ii">
+        <div class="yu">
+          <img src="Mk (2).png" id="yuoo" />
+        </div>
+
+        <h1
+          style="
+            line-height: 0.1;
+
+            margin-top: -30px;
+            color: palegreen;
+          "
+          class="fw-light"
+          id="tyt"
+        >
+          Documents storage
+        </h1>
+        <div class="ytr"></div>
+        <div class="yt"></div>
+        <div class="tyo"></div>
+      </div>
+    </div>
+    <br /><!-- <div class="con" style="margin-top: 300px">
+      <div style="width: 400px" class="co">название страны:</div>
+      <div class="co">город:</div>
+      <div class="co">кол-во насления:</div>
+    </div>
+    <div class="con">
+      <div style="width: 400px" class="it">Узбекистан</div>
+      <div class="it">Бухара</div>
+      <div class="it">400 тыс человек</div>
+    </div>
+    <div class="con">
+      <div style="width: 400px" class="it">Россия</div>
+      <div class="it">Владивосток</div>
+      <div class="it">600 тыс человек</div>
+    </div> -->
+    <div class="container">
+      <div class="c">
+        <div class="i">
+          <div class="doc" style="color: darkgoldenrod">
+            <img
+              id="id"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_DiSRaLp7b3swLUElR9vEbNjlzEzh1RXIBlcuACzo_mL2Nk7RjvxoBKBRfdHUBYaDAxM&usqp=CAU"
+            />
+          </div>
+          doc.1
+        </div>
+        <div class="i">
+          <div class="doc" style="color: darkgoldenrod">
+            <img
+              id="id"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_DiSRaLp7b3swLUElR9vEbNjlzEzh1RXIBlcuACzo_mL2Nk7RjvxoBKBRfdHUBYaDAxM&usqp=CAU"
+            />
+          </div>
+          doc.2
+        </div>
+        <div class="i">
+          <div class="doc" style="color: darkgoldenrod">
+            <img
+              id="id"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_DiSRaLp7b3swLUElR9vEbNjlzEzh1RXIBlcuACzo_mL2Nk7RjvxoBKBRfdHUBYaDAxM&usqp=CAU"
+            />
+          </div>
+          doc.3
+        </div>
+        <!-- ________________________________________________________ -->
+
+        <div class="i">
+          <div class="doc" style="color: darkgoldenrod">
+            <img
+              id="id"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_DiSRaLp7b3swLUElR9vEbNjlzEzh1RXIBlcuACzo_mL2Nk7RjvxoBKBRfdHUBYaDAxM&usqp=CAU"
+            />
+          </div>
+          doc.4
+        </div>
+        <div class="i">
+          <div class="doc" style="color: darkgoldenrod">
+            <img
+              id="id"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_DiSRaLp7b3swLUElR9vEbNjlzEzh1RXIBlcuACzo_mL2Nk7RjvxoBKBRfdHUBYaDAxM&usqp=CAU"
+            />
+          </div>
+          doc.5
+        </div>
+        <div class="i">
+          <div class="doc" style="color: darkgoldenrod">
+            <img
+              id="id"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_DiSRaLp7b3swLUElR9vEbNjlzEzh1RXIBlcuACzo_mL2Nk7RjvxoBKBRfdHUBYaDAxM&usqp=CAU"
+            />
+          </div>
+          doc.6
+        </div>
+        <div class="i">
+          <div class="doc" style="color: darkgoldenrod">
+            <img
+              id="id"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_DiSRaLp7b3swLUElR9vEbNjlzEzh1RXIBlcuACzo_mL2Nk7RjvxoBKBRfdHUBYaDAxM&usqp=CAU"
+            />
+          </div>
+          doc.7
+        </div>
+        <div class="i">
+          <div class="doc" style="color: darkgoldenrod">
+            <img
+              id="id"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_DiSRaLp7b3swLUElR9vEbNjlzEzh1RXIBlcuACzo_mL2Nk7RjvxoBKBRfdHUBYaDAxM&usqp=CAU"
+            />
+          </div>
+          doc.8
+        </div>
+        <div class="i">
+          <div class="doc" style="color: darkgoldenrod">
+            <img
+              id="id"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_DiSRaLp7b3swLUElR9vEbNjlzEzh1RXIBlcuACzo_mL2Nk7RjvxoBKBRfdHUBYaDAxM&usqp=CAU"
+            />
+          </div>
+          doc.9
+        </div>
+        <div class="i">
+          <div class="doc" style="color: darkgoldenrod">
+            <img
+              id="id"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_DiSRaLp7b3swLUElR9vEbNjlzEzh1RXIBlcuACzo_mL2Nk7RjvxoBKBRfdHUBYaDAxM&usqp=CAU"
+            />
+          </div>
+          doc.10
+        </div>
+        <div class="i">
+          <div class="doc" style="color: darkgoldenrod">
+            <img
+              id="id"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_DiSRaLp7b3swLUElR9vEbNjlzEzh1RXIBlcuACzo_mL2Nk7RjvxoBKBRfdHUBYaDAxM&usqp=CAU"
+            />
+          </div>
+          doc.11
+        </div>
+        <div class="i">
+          <div class="doc" style="color: darkgoldenrod">
+            <img
+              id="id"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_DiSRaLp7b3swLUElR9vEbNjlzEzh1RXIBlcuACzo_mL2Nk7RjvxoBKBRfdHUBYaDAxM&usqp=CAU"
+            />
+          </div>
+          doc.12
+        </div>
+      </div>
+    </div>
+    <br />
+    <div class="container">
+      <hr />
+    </div>
+    <!-- __________________________________________________________ -->
+
+    <a
+      class="btn btn-outline-success"
+      href="index.html"
+      style="margin-bottom: -10px"
+    >
+      главная страница
+    </a>
+  </body>
+</html>
